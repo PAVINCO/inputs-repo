@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=main, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        input{
+            width: 60%;
+            height: 35px;
+            margin-top: 3px;
+            outline: none;
+        }
+        label{
+            font-size: 16px;
+            text-transform: capitalize;   
+        }
+
+        ::placeholder{
+            font-size: 15px;
+        }
+
+        select{
+            width: 50%;
+            height: 33px;
+            outline: none;
+        }
+
+
+    </style>
+</head>
+<body>
+    <form style="border: 1px solid black; width: 30%; margin: 0 auto; padding: 17px 0 0 50px; margin-top: 40px;">
+    
+        <label for="firstname">firstname</label><br>
+        <input type="text" name="" id="firstname" placeholder="e.g andrew" required><br><br>
+
+        <label for="secondname">secondname</label><br>
+        <input type="text" name="" id="secondname" placeholder="e.g brandy" required><br><br>
+
+        <label for="password">password</label><br>
+        <input type="password" name="" id="password" placeholder="123456" required><br><br>
+
+        <label for="password">Confirm password</label><br>
+        <input type="password" name="" id="confirmpassword" placeholder="123456"><br><br>
+
+        <label for="country">Select Your Country</label><br>
+        <select name="country" id="selection-country" required >
+            <option value="" disabled>pick a country</option>
+            <option value="England">England</option>
+            <option value="Belgium">Belgium</option>
+            <option value="Spain">Spain</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Ghana">Ghana</option>
+        </select><br><br>
+
+        <label for="gender">Select Your Gender</label><br>
+        <select name="" id="">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Qthers</option>
+        </select><br><br>
+        
+        <button value="submit" style="background-color: cornflowerblue; color: beige; text-transform: capitalize; font-family: sans-serif; padding: 10px 13px; border: none; border-radius: 5px; margin-bottom: 20px;">submit</button>
+        <!-- <input type="checkbox" name="" id=""><label for="">do you agree to our terms and conditions</label> -->
+
+    </form>
+
+    
+</body>
+</html>
